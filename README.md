@@ -1,4 +1,4 @@
-# Example project using AOP annotations
+# Example project using AOP annotations in a libary
 
 - Example of alias for replacing multiple annotations, marking some required
 
@@ -16,7 +16,7 @@ Or go to <a>http://localhost:8080/swagger-ui.html</a> for the swagger ui interfa
 ---
 
 ## Custom annotation
-The **`@CustomController`** annotation is defined in package com.hqrd.springaop.annotation;
+The **`@CustomController`** annotation is defined in the library.
 
 It uses the `@AliasFor` annotation to use multiple annotations at once and simplify the duplication of controller methods without forgetting an annotation.
 
